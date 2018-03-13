@@ -1,0 +1,12 @@
+class Restaurant(object):
+    def __init__(self,name,type):
+        self.restaurant_name = name
+        self.cuisine_type = type
+    def describe_restaurant(self):
+        print(self.restaurant_name)
+        print(self.cuisine_type)
+    def open_reataurant(self):
+        print("%s餐馆正在营业"%self.restaurant_name)
+reataurant = Restaurant('飓风','湘菜')
+reataurant.describe_resturant()
+reataurant.open_reataurant()

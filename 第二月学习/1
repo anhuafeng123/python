@@ -1,0 +1,5 @@
+f = open("1.py","r")
+#print(f.readlines())
+#f.write("爱  不用刻意安排\n死了都要爱\n不哭就去死\n")
+print(f.tell())
+f.close
